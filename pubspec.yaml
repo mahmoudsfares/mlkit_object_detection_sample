@@ -1,0 +1,27 @@
+name: google_ml_kit_example
+description: Demonstrates how to use the google_ml_kit plugin.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+  image_picker: ^0.8.5
+  camera: ^0.9.4+21
+  path_provider: ^2.0.9
+  google_ml_kit: ^0.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ml/
